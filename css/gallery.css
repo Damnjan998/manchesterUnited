@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	font-style: normal;
+}
+
+body {
+	background-color: #eee;
+	background: url("../images/stadion.jpg");
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans';
+}
+
+#omotac {
+	width: 1200px;
+	margin: 0 auto;
+	background-color:#eee;
+	background: rgba(255, 255, 255, 0.8);
+	border: 3px solid;
+	border-radius: 10px;
+}
+
+header {
+	width: 1200px;
+	background-color: black;
+	border-bottom: 3px solid;
+	font-size: 22px;
+}
+
+#gornji {
+	width: inherit;
+}
+
+#pretraga {
+	width: 380px;
+	padding-top: 3px;
+	padding-left: 5px;
+	float: left;
+	font-variant: small-caps;
+}
+
+#poljePretraga {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#dugmePretraga {
+	width: 70px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	font-variant: small-caps;
+}
+
+#dugmePretraga:hover {
+	background-color: #555555; 
+    color: white;
+}
+
+#logo {
+	width: 860px;
+	text-align: center;
+	display: inline;
+	padding-left: 60px;
+}
+
+#logovanje {
+	width: 380px;
+	float: right;
+	text-align: right;
+	padding-top: 3px;
+	padding-right: 5px;
+	font-variant: small-caps;
+}
+
+#user {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#pass {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#dugmeLogovanje {
+	width: 70px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 3px; 
+	cursor: pointer;
+	font-variant: small-caps;
+}
+
+#dugmeLogovanje:hover {
+	background-color: #555555; 
+    color: white;
+}
+
+#meni {
+	width: inherit;
+	text-align: center;
+}
+
+#meni ul {
+	margin: 0px auto;
+	padding-top: 4px;
+}
+
+#meni li {
+	display: inline;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 20px 15px;
+}
+
+#meni ul li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-variant: small-caps;
+	color: white;
+}
+
+#meni ul li a:hover {
+	text-decoration: overline;
+}
+
+#meni .aktivanLink {
+	border-top: 4px solid #b30000;
+	margin-top: 0px;
+	padding-top: 16px; 
+}
+
+#galerija {
+	width: 100%;
+	padding: 20px 0px;
+	vertical-align: top;
+	
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+}
+
+#galerija h2 {
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+#galerija .artikl figcaption {
+	padding:10px 0px;
+}
+
+#naslov {
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#naslov:hover {
+	background-color: #b30000;
+	border-radius: 10px;
+}
+
+.image {
+    width: 420px;
+	border-radius: 10px;
+    overflow: hidden; 
+}
+
+.image img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+     transform:scale(1.25);
+}
+
+#squad1 {
+	width: 420px;
+	border-radius: 10px;
+}
+
+#trophies1 {
+	width: 420px;
+	border-radius: 10px;
+}
+
+#trener {
+	width: 420px;
+	border-radius: 10px;
+}
+
+#legende {
+	border-radius: 10px;
+	width: 420px;
+}
+
+footer {
+	width: 1200px;
+	min-height: 120px;
+	margin-top: 20px;
+	border-top: 3px solid;
+	background-color: black;
+	border-radius: 0px 0px 6px 6px;
+}
+
+#social {
+	width: 100%;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+#social ul {
+	margin: 0px auto;
+	list-style: none;
+}
+
+#social li {
+	display: inline;
+	padding-bottom: 10px;
+}
+
+#instagram {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#youtube {
+	padding-left: 20px;
+
+}
+
+#rss {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#copyright {
+	float: right;
+	padding-right: 90px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+#copyright a {
+	color: #eeeeee;
+	font-variant: small-caps;
+}
+
+#copyright a:hover {
+	color: #b30000;
+}

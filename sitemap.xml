@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+
+		<loc>http://sajtovistudenata.ict.edu.rs/174_17/index.html</loc>
+
+		<lastmod>2017-12-08</lastmod>
+
+		<changefreq>daily</changefreq>
+
+		<priority>1</priority>
+
+	</url>	
+
+	<url>
+
+		<loc>http://sajtovistudenata.ict.edu.rs/174_17/tim.html</loc>
+
+		<lastmod>2017-12-08</lastmod>
+
+		<changefreq>daily</changefreq>
+
+		<priority>0.8</priority>
+
+	</url>
+
+	<url>
+
+		<loc>http://sajtovistudenata.ict.edu.rs/174_17/gallery.html</loc>
+
+		<lastmod>2017-12-08</lastmod>
+
+		<changefreq>daily</changefreq>
+
+		<priority>0.8</priority>
+
+	</url>
+
+	<url>
+
+		<loc>http://sajtovistudenata.ict.edu.rs/174_17/about.html</loc>
+
+		<lastmod>2017-12-08</lastmod>
+
+		<changefreq>daily</changefreq>
+
+		<priority>0.6</priority>
+
+	</url>
+</urlset>

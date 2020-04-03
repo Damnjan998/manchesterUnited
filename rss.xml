@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+	<title>Manchester United | Home</title>
+	<link>http://sajtovistudenata.ict.edu.rs/174_17/index.html</link>
+	<description>Football team web site, where you can find out everything about your favourite club!</description>
+	
+	<item>
+		<title>Manchester United | Squad</title>
+		<link>http://sajtovistudenata.ict.edu.rs/174_17/tim.html</link>
+		<description>This is our starting IX of Manchester United team with squad numbers and positions!</description>
+	</item>
+	
+	<item>
+		<title>Manchester United | Gallery</title>
+		<link>http://sajtovistudenata.ict.edu.rs/174_17/gallery.html</link>
+		<description>Here you can find some of club pictures!</description>
+	</item>	
+</channel>
+</rss>

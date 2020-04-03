@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*
+{
+	font-style: normal;
+}
+body {
+	background-color: #eee;
+	background: url("../images/stadion.jpg");
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans';
+}
+
+#omotac {
+	width: 1200px;
+	margin: 0 auto;
+	background-color:#eee;
+	background: rgba(255, 255, 255, 0.8);
+	border: 3px solid;
+	border-radius: 10px;
+}
+
+header {
+	width: 1200px;
+	background-color: black;
+	border-bottom: 3px solid;
+	font-size: 22px;
+}
+
+#gornji {
+	width: inherit;
+}
+
+#pretraga {
+	width: 380px;
+	padding-top: 3px;
+	padding-left: 5px;
+	float: left;
+	font-variant: small-caps;
+}
+
+#poljePretraga {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#dugmePretraga {
+	width: 70px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	font-variant: small-caps;
+}
+
+#dugmePretraga:hover {
+	background-color: #555555; 
+    color: white;
+}
+
+#logo {
+	width: 860px;
+	text-align: center;
+	display: inline;
+	padding-left: 60px;
+}
+
+#logovanje {
+	width: 380px;
+	float: right;
+	text-align: right;
+	padding-top: 3px;
+	padding-right: 5px;
+	font-variant: small-caps;
+}
+
+#user {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#pass {
+	width: 125px;
+	display: inline;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#dugmeLogovanje {
+	width: 70px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 3px; 
+	cursor: pointer;
+	font-variant: small-caps;
+}
+
+#dugmeLogovanje:hover {
+	background-color: #555555; 
+    color: white;
+}
+
+#meni {
+	width: inherit;
+	text-align: center;
+}
+
+#meni ul {
+	margin: 0px auto;
+	padding-top: 4px;
+}
+
+#meni li {
+	display: inline;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 20px 15px;
+}
+
+#meni ul li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-variant: small-caps;
+	color: white;
+}
+
+#meni ul li a:hover {
+	text-decoration: overline;
+	font-weight: bold;
+}
+
+#meni .aktivanLink {
+	border-top: 4px solid #b30000;
+	margin-top: 0px;
+	padding-top: 16px; 
+}
+
+caption {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+nav {
+	width: 28%;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 1px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#tabelaPL {
+	width: 100%;
+}
+
+#pl {
+	margin-top: 77px;
+	width: inherit;
+	border-radius: 5px;
+}
+
+#pl th {
+	font-size: 22px;
+	text-align: center;
+	font-variant: small-caps;
+	padding-top: 13px;
+}
+
+#pl td {
+	font-size: 17px;
+	text-align: center;
+}
+
+#tabelaLS {
+	width: 100%;
+}
+
+#ls {
+	width: inherit;
+	border-radius: 5px;
+}
+
+#ls th {
+	font-size: 22px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#ls td {
+	font-size: 17px;
+	text-align: center;
+}
+
+main {
+	width: 42%;
+	vertical-align: top;
+	display: inline-block;
+	margin-top: 5px;
+	padding-right: 8px;
+	padding-left: 5px;
+	font-size: 22px;
+	text-align: center;
+}
+
+#news {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.vest {
+	width: 100%;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+#vest1 {
+	display: flex;
+}
+
+#slika1 img {
+	float: left;
+	width: 225px;
+	margin: 2px 2px;
+	border-radius: 5px;
+}
+
+#tekst1 {
+	float: right;
+	width: 250px;
+	font-size: 10px; 
+	padding-left: 10px;
+}
+
+#tekst1 h1 {
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px #252525;
+}
+#tekst1 p {
+	text-align: justify;
+	font-size: 14px;
+	padding-right: 5px;
+}
+
+#vest2 {
+	margin-top: 30px;
+	display: inline-flex;
+}
+
+#slika2 img {
+	float: left;
+	width: 225px;
+	margin: 2px 2px;
+	border-radius: 5px;
+}
+
+#tekst2 {
+	float: right;
+	width: 250px;
+	font-size: 10px;
+	padding-left: 10px; 
+}
+
+#tekst2 h1 {
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px #252525;
+}
+#tekst2 p {
+	text-align: justify;
+	font-size: 14px;
+	padding-right: 5px;
+}
+
+aside {
+	width: 28%;
+	display: inline-block;
+	float: right;
+	padding-top: 5px;
+	padding-right: 2px;
+	font-size: 22px;
+}
+
+#strelci {
+	width: 100%;
+}
+
+#golovi th {
+	font-size: 22px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#golovi td {
+	font-size: 17px;
+	text-align: center;
+}
+
+#golovi {
+	width: inherit;
+	border-radius: 5px;
+}
+
+#asistencije {
+	width: inherit;
+	border-radius: 5px;
+}
+
+#asistencije th {
+	font-size: 22px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#asistencije td {
+	font-size: 17px;
+	text-align: center;
+}
+
+#anketa {
+	margin-top: 35px;
+
+}
+
+#anketa fieldset {
+	border-radius: 5px;
+}
+
+footer {
+	width: 1200px;
+	min-height: 120px;
+	margin-top: 20px;
+	border-top: 3px solid;
+	background-color: black;
+	border-radius: 0px 0px 6px 6px;
+}
+
+#social {
+	width: 100%;
+	padding-top: 25px;
+	vertical-align: middle;
+}
+
+#social ul {
+	margin: 0px auto;
+	list-style: none;
+}
+
+#social li {
+	display: inline;
+	padding-bottom: 10px;
+}
+
+#instagram {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#youtube {
+	padding-left: 20px;
+
+}
+
+#rss {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#copyright {
+	float: right;
+	padding-right: 90px;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+#copyright a {
+	color: #eeeeee;
+	font-variant: small-caps;
+}
+
+#copyright a:hover {
+	color: #b30000;
+}
